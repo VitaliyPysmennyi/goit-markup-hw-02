@@ -1,0 +1,72 @@
+/* font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+
+/* Колір основного текста #212121 */
+/* Вторинний корір текста #757575 */
+/* Колір текста #FFFFFF */
+/* Колір логотипа синій #2196F3 */
+
+/* Основний колір фона #FFFFFF */
+/* Колір фона 2 темно-сірий 2F303A */
+/* Колір фона 3 сірий #F5F4FA*/
+
+:root {
+    --primary-text-color:#212121;
+    --logo-text-color:#2196F3;
+
+
+    --primary-backg-color: #FFFFFF;
+}
+
+body {
+font-family: 'Roboto',
+sans-serif;
+color: var(--primary-text-color);
+background-color: var(--primary-backg-color);
+}
+.list {
+ list-style: none;
+}
+.links {
+ text-decoration: none;
+}
+/* Шапка */
+.nav-links {
+ color: var(--logo-text-color);
+}
+.nav-logo {
+ color: #000000;
+}
+.nav-links,
+.nav-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.span {
+    color: var(--logo-text-color);
+}
+
+.item-link {
+    color: var(--primary-text-color);
+}
+.item-link:hover,
+.item-link:focus {
+    color: var(--logo-text-color);
+}
+.contacts {
+ color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--logo-text-color);
+}
